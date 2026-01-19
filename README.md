@@ -87,6 +87,7 @@ DATABASE_URL="file:./db/data.sqlite"
 ####################################
 # Node.js
 ####################################
+
 node_modules
 npm-debug.log*
 yarn-debug.log*
@@ -95,6 +96,7 @@ yarn-error.log*
 ####################################
 # Environment variables (sensíveis)
 ####################################
+
 .env
 .env.*
 !.env.example
@@ -102,6 +104,7 @@ yarn-error.log*
 ####################################
 # Prisma
 ####################################
+
 # Cliente gerado automaticamente
 /src/generated/prisma
 
@@ -111,6 +114,7 @@ prisma/migrations
 ####################################
 # Banco de dados (SQLite)
 ####################################
+
 db/*.sqlite
 db/*.sqlite-journal
 db/*.db
@@ -118,6 +122,7 @@ db/*.db
 ####################################
 # Build / Cache
 ####################################
+
 dist
 build
 .cache
@@ -125,12 +130,14 @@ build
 ####################################
 # Sistema Operacional
 ####################################
+
 .DS_Store
 Thumbs.db
 
 ####################################
 # IDE / Editor
 ####################################
+
 .vscode
 .idea
 *.swp
