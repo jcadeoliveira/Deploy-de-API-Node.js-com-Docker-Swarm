@@ -160,6 +160,7 @@ EXPOSE 3000
 CMD ["node", "src/server.js"]
 
 🧪 PASSO 6 — TESTAR LOCALMENTE
+
 npm install
 npm run dev
 Teste
@@ -170,6 +171,7 @@ curl http://localhost:3000/health
 docker build -t api-node:latest .
 Teste
 docker run -p 3000:3000 api-node:latest
+
 🌐 PASSO 8 — CRIAR REPOSITÓRIO NO GITHUB
 
 1.Acesse https://github.com
@@ -218,6 +220,7 @@ http://IP_DA_MANAGER:3000
 http://IP_DA_MANAGER:3000/health
 
 🔁 PASSO 15 — ATUALIZAR A API (REGRA DE OURO)
+
 docker build -t api-node:latest .
 docker tag api-node:latest SEU_USUARIO/api-node:latest
 docker push SEU_USUARIO/api-node:latest
