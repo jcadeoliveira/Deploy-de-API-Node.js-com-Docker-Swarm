@@ -49,6 +49,7 @@ api-node/
 └── README.md
 
 🧠 PASSO 2 — CÓDIGO DA API (EXEMPLO)
+
 import express from "express";
 import dotenv from "dotenv";
 import productsRouter from "./routes/products.js";
